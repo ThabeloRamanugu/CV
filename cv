@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thabelo Netshiongolwe - CV</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        /* Basic Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            color: #333;
+            background-color: #f9f9f9;
+            line-height: 1.6;
+        }
+
+        /* Container */
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 1rem;
+        }
+
+        /* Header Styling */
+        header {
+            background-color: #0066cc;
+            color: #ffffff;
+            text-align: center;
+            padding: 2rem 0;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            position: relative;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        header p {
+            font-size: 1.2rem;
+        }
+
+        /* Profile Picture Styling */
+        .profile-picture {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 4px solid #ffffff;
+            object-fit: cover;
+            position: absolute;
+            top: 15%;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        /* Section Titles */
+        h2 {
+            color: #0066cc;
+            margin-top: 5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        /* Contact Info Styling */
+        #contact-info {
+            background-color: #e3f2fd;
+            padding: 1rem;
+            border-radius: 8px;
+            margin-bottom: 1.5rem;
+        }
+
+        .contact-details p {
+            display: flex;
+            align-items: center;
+            margin-bottom: 0.5rem;
+        }
+
+        .contact-details i {
+            color: #0066cc;
+            margin-right: 0.5rem;
+        }
+
+        /* Skills Section */
+        #skills {
+            margin-bottom: 1.5rem;
+        }
+
+        .skills-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+        }
+
+        .skills-list li {
+            background-color: #0066cc;
+            color: #ffffff;
+            padding: 0.5rem 1rem;
+            border-radius: 20px;
+            font-size: 0.9rem;
+        }
+
+        /* Work Experience Section */
+        .job {
+            margin-bottom: 1.5rem;
+        }
+
+        .job h3 {
+            color: #444;
+            font-size: 1.3rem;
+        }
+
+        .job-details {
+            font-size: 0.9rem;
+            color: #777;
+            margin-bottom: 0.5rem;
+        }
+
+        .responsibilities li {
+            margin-left: 1rem;
+            margin-bottom: 0.3rem;
+        }
+
+        /* Education Section */
+        .education-entry {
+            margin-bottom: 1rem;
+        }
+
+        .education-details {
+            font-size: 0.9rem;
+            color: #777;
+        }
+
+        /* Footer Styling */
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background-color: #f4f4f4;
+            color: #333;
+            font-size: 0.9rem;
+            box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Responsive Design */
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 2rem;
+            }
+
+            .skills-list {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <h1>Thabelo Netshiongolwe</h1>
+            <p>Aspiring IT Professional</p>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Contact Info Section -->
+        <section id="contact-info" class="container">
+            <h2>Contact Information</h2>
+            <div class="contact-details">
+                <p><i class="fas fa-envelope"></i> <a href="mailto:youremail@example.com">youremail@example.com</a></p>
+                <p><i class="fas fa-phone"></i> 068 135 1386 / 068 125 5529</p>
+                <p><i class="fab fa-linkedin"></i> <a href="https://linkedin.com/in/yourprofile" target="_blank">LinkedIn Profile</a></p>
+                <p><i class="fas fa-map-marker-alt"></i> South Africa</p>
+            </div>
+        </section>
+
+        <!-- Profile Section -->
+        <section id="profile" class="container">
+            <h2>Profile</h2>
+            <p>I am an 18-year-old student and South African citizen, currently pursuing a Bachelor of Science in Information Technology at Richfield College. My goal is to gain practical experience in the IT industry, especially during school holidays. I am dedicated to personal growth, working hard to improve my skills and overcome challenges.</p>
+        </section>
+
+        <!-- Why Choose Me Section -->
+        <section id="why-choose-me" class="container">
+            <h2>Why Choose Me</h2>
+            <p>I am a motivated and dedicated individual who values hard work and growth. Despite being at the start of my career, I have demonstrated reliability and an eagerness to learn in various roles, such as my time working at Joburg Market. I am not only skilled in web design with HTML, CSS, and Java but am also focused on building practical, industry-relevant skills through my studies in IT.</p>
+            <p>My strengths lie in my adaptability and resilience. I am not afraid of challenges and continuously work to improve myself. Although I may not have years of experience, I bring a fresh perspective, a strong work ethic, and a desire to contribute positively to any team. With a passion for technology and a commitment to delivering quality work, I am confident that I can make a meaningful impact in any position.</p>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="container">
+            <h2>Skills</h2>
+            <ul class="skills-list">
+                <li>HTML & CSS</li>
+                <li>Basic Java</li>
+                <li>Web Design</li>
+                <li>Conflict Resolution</li>
+                <li>Adaptability</li>
+            </ul>
+        </section>
+
+        <!-- Work Experience Section -->
+        <section id="experience" class="container">
+            <h2>Work Experience</h2>
+            <div class="job">
+                <h3>General Worker - Joburg Market</h3>
+                <p class="job-details">Johannesburg, South Africa | School Holiday Periods</p>
+                <ul class="responsibilities">
+                    <li>Assisted in packaging and handling products for distribution</li>
+                    <li>Maintained order and cleanliness in packaging areas</li>
+                    <li>Gained experience in managing conflict and working as part of a team</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="container">
+            <h2>Education</h2>
+            <div class="education-entry">
+                <h3>Bachelor of Science in Information Technology</h3>
+                <p class="education-details">Richfield Graduate Institute of Technology, South Africa | Current Student</p>
+            </div>
+            <div class="education-entry">
+                <h3>Matric Certificate (Bachelor's Pass)</h3>
+                <p class="education-details">South African High School | Graduation Year: 2023</p>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Thabelo Netshiongolwe</p>
+    </footer>
+
+    <script>
+        // Display a greeting based on the time of day
+        window.onload = function() {
+            const hours = new Date().getHours();
+            const greetingText = hours < 12 ? "Good morning!" : hours < 18 ? "Good afternoon!" : "Good evening!";
+            const greeting = document.createElement("p");
+            greeting.innerText = greetingText;
+            greeting.style.color = "#e3f2fd";
+            greeting.style.fontSize = "1.2rem";
+            greeting.style.marginTop = "0.5rem";
+            document.querySelector("header").appendChild(greeting);
+        };
+    </script>
+
+</body>
+</html>
+
